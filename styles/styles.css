@@ -22,6 +22,28 @@
 .link {
   text-decoration: none;
 }
+h1, h2, h3, p {
+  margin-top: 0;
+margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+button { 
+  cursor: pointer;
+}
+
+.conteiner {
+width: 1128px;
+margin-left: auto;
+margin-right: auto;
+}
+
 
 body {
   font-family: var(--primary-fons);
@@ -116,7 +138,6 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--modal-btn-text-color);
-  cursor: pointer;
 }
 
 .modal-btn {
@@ -161,7 +182,6 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: var(--accent-color);
-  cursor: pointer;
 }
 
 .model-btn-nav {

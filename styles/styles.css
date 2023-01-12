@@ -22,10 +22,14 @@
 .link {
   text-decoration: none;
 }
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   margin-top: 0;
-margin-bottom: 0;
+  margin-bottom: 0;
 }
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -34,16 +38,15 @@ ul {
 img {
   display: block;
 }
-button { 
+button {
   cursor: pointer;
 }
 
 .conteiner {
-width: 1128px;
-margin-left: auto;
-margin-right: auto;
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 
 body {
   font-family: var(--primary-fons);
@@ -62,7 +65,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color-studio-header)
+  color: var(--logo-color-studio-header);
 }
 
 .logo-color-web {
@@ -93,6 +96,35 @@ body {
 }
 
 /* Header */
+.page-header-conteiner {
+  border-bottom: 1px solid #E7E9FC;
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 76px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.contacts-list {
+  display: flex;
+  align-items: center;
+}
+.contacts{
+   margin-left: auto; 
+}
+
 
 .menu-link {
   font-weight: 500;
@@ -111,6 +143,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  margin-right: 40px;
 }
 
 .contact-link:hover,
@@ -146,17 +179,28 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #404BBF;
+  background: #404bbf;
 }
 
-
 /* Features section */
+
+.features-section-list {
+  display: flex;
+}
+
+/* Work section */
+.work-section-list {
+  display: flex;
+}
+
 
 /* Team section */
 .team-section {
   background: var(--team-section-background);
 }
-
+.team-section-list {
+display: flex;
+}
 /* Footer */
 .footer {
   background: var(--footer-section-background);
@@ -167,13 +211,15 @@ body {
 }
 
 .logo-color {
-  color: var(--logo-color-studio-footer)
+  color: var(--logo-color-studio-footer);
 }
 
 /* --------------Portfolio----------------- */
 
 /* Filters */
-
+.filter-list {
+  display: flex; 
+}
 .model-btn-nav {
   font-weight: 500;
   line-height: 1.5;

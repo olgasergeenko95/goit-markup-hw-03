@@ -112,6 +112,7 @@ body {
   align-items: center;
   padding-top: 24px;
   padding-bottom: 24px;
+  justify-content: space-between;
 }
 
 .logo {
@@ -142,16 +143,14 @@ body {
   color: var(--accent-color);
 }
 
-.contacts {
-  margin-left: auto;
-}
 .contacts-list {
   display: flex;
   align-items: center;
-  margin-left: 40px;
+  margin-left: auto;
 }
 
 .contact-link {
+  margin-left: 40px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -203,15 +202,18 @@ body {
 
 .features-section-list {
   display: flex;
-  align-items: center;
   gap: 24px;
 }
 
+.feature {
+  width: 264px;
+}
 /* Work section */
 
 .work-section-list {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 /* Team section */
@@ -239,6 +241,8 @@ body {
 
 /* Footer */
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: var(--footer-section-background);
 }
 

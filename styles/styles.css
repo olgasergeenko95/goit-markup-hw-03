@@ -94,7 +94,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-top: 32px;
+  /* margin-top: 32px;  */
   margin-bottom: 8px;
 }
 
@@ -168,7 +168,7 @@ body {
 }
 
 .hero-title {
-  width: 494px;
+  width: 496px;
   padding-top: 188px;
   padding-bottom: 48px;
   margin-left: auto;
@@ -202,6 +202,8 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
   background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* Features section */
@@ -266,9 +268,17 @@ body {
 
 /* Filters */
 .filter-list {
+  margin-top: 96px;
+  margin-bottom: 72px;
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .model-btn-nav {
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-bottom: 12px;
+  padding-left: 24px;
   font-weight: 500;
   line-height: 1.5;
   display: flex;
@@ -294,4 +304,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding-bottom: 120px;
+}
+.card-txt {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
 }

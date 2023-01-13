@@ -169,6 +169,9 @@ body {
 }
 
 .hero-title {
+  width: 494px;
+  padding-top: 188px;
+  padding-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;

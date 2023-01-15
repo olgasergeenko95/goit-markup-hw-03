@@ -164,7 +164,6 @@ body {
 
 /* Order Service section */
 .hero {
-  height: 600px;
   background: var(--oder-section-background);
   margin-bottom: 120px;
 }
@@ -243,7 +242,7 @@ body {
   border-radius: 0px 0px 4px 4px;
   border-top: 0;
   text-align: center;
- padding: 32px 16px 32px 16px;
+  padding: 32px 16px 32px 16px;
 }
 
 /* Footer */

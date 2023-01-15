@@ -147,8 +147,10 @@ body {
   margin-left: auto;
 }
 
+.contact:not(:last-child) {
+  margin-right: 40px;
+}
 .contact-link {
-  margin-left: 40px;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;

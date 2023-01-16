@@ -167,7 +167,10 @@ body {
 .hero {
   background: var(--oder-section-background);
 }
-
+.hero-conteiner {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 .hero-title {
   width: 496px;
   padding-bottom: 48px;

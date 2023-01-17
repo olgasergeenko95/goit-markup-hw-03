@@ -209,15 +209,16 @@ body {
 .features-section {
   padding-bottom: 0;
 }
+.feature {
+  width: 264px;
+}
+
 .features-section-list {
   display: flex;
   align-items: center;
   gap: 24px;
 }
 
-.feature {
-  width: 264px;
-}
 /* Work section */
 
 .work-section-list {

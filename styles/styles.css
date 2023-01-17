@@ -90,6 +90,7 @@ body {
 }
 
 /* Header */
+
 .page-header-conteiner {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
@@ -98,6 +99,7 @@ body {
   padding-bottom: 24px;
   justify-content: space-between;
 }
+
 .logo {
   margin-right: 76px;
   font-family: var(--secondary-fons);
@@ -124,9 +126,11 @@ body {
   display: flex;
   align-items: center;
 }
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
+
 .menu-link {
   font-weight: 500;
   line-height: 1.5;

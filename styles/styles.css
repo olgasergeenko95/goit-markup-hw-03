@@ -282,8 +282,8 @@ body {
   padding-top: 0;
 }
 .filters {
-  margin-top: 96px;
-  margin-bottom: 72px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 .filter-list {
   display: flex;

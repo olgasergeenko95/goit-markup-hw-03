@@ -231,7 +231,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 24px;
+  column-gap: 24px;
 }
 /* .work-item {
   flex-basis: calc((100%-48px) / 3);

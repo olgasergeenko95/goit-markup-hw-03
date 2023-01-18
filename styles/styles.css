@@ -314,16 +314,16 @@ body {
 }
 
 /* portaolio */
-
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
+  padding-top: 0;
 }
 
 .portfolio-list {
   margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 /* .portfolio-item {

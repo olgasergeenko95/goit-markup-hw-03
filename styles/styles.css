@@ -333,9 +333,9 @@ body {
   column-gap: 24px; */
 }
 
-.portfolio-item {
+/* .portfolio-item {
   flex-basis: calc(100%-48px\3);
-}
+} */
 
 .portfolio-item:not(:nth-child(3n)) {
   margin-right: 24px;

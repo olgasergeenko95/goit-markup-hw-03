@@ -92,17 +92,18 @@ body {
 }
 
 /* Header */
-.page-header {
+.header {
   border-bottom: 1px solid var(--border-color);
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.page-header-conteiner {
+.page-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   margin-right: 76px;
   font-family: var(--secondary-fons);
@@ -294,8 +295,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
 }
+
 .model-btn-nav {
   padding: 12px 24px 12px 24px;
   font-weight: 500;
@@ -321,7 +322,7 @@ body {
 
 /* portaolio */
 .portfolio {
-  padding-top: 0;
+  padding-top: 96px;
 }
 
 .portfolio-list {
